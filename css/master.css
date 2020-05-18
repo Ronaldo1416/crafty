@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+}
+
+/* header */
+.linea{
+    width: 960px;
+    background-color: orange;
+    height:50px;
+    overflow: hidden;
+}
+.logo{
+    float:left;
+    margin-left:5px;
+    margin-top:5px;
+}
+.nav1 li {
+    float:left;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 20px;
+    list-style:none;
+}
+.linea a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+.nav2 li {
+    float:right;
+    margin-top: 18px;
+    margin-left: 14px;
+    font-size: 20px;
+    list-style:none;
+}
+/* cuatro contenddores de la pagina */
+
+#container{
+    width: 960px;
+    
+}
+#telefonos{
+    width:620px;
+    margin-left: 1px;
+}
+#tutoriales{
+    width: 300px;
+    margin-right: 2px;
+}
+
+ /* Telefonos */
+
+.smartphones{
+    width: 620px;
+    overflow: hidden;
+    margin-left: 2px;
+}
+.a1 p, .a2 p, .a3 p{
+    text-align: left;
+    
+}
+.a1, .a3, .a5{
+    float:left;
+    width: 300px;
+}
+.a2, .a4, .a6{
+    float:right;
+    width: 300px;
+}
+.a1 img, .a2 img, .a3 img {
+    width:100%;
+}
+.smarthpones input{
+    background-color: orange;
+    color: white;
+}
+
+/* Tutoriales */ 
+
+.titulo{
+    width:300px;
+    border: 2px solid black;
+    font-size: 30px;
+    margin-top: 5px;
+}
+.right article{
+    width:200px;
+}
+.over p{
+    font-size: 13px;
+
+}
+.over{
+    overflow: hidden;
+}
+.right{
+    float:right;
+}    
+.left{
+    float:left;
+}    
+/* Para propaganda */
+
+#add img{
+    width:100%
+}
+
+
+/* Para firma */ 
+body{
+    background-color: cornflowerblue;
+    background-repeat: cover;
+}
+form{
+    width:30%;
+    margin:2% auto;
+    
+}
+.registros{
+    width: 40%;
+    margin: 1% auto;
+    
+}
+.for .boton1{
+    width: 30%;
+    background-color: lightblue;
+    color: white;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    float: left;
+    font-size:20px;
+}    
+.tit{
+    font-size: 35px;
+    color:white;
+} 
+label{
+    font-size: 20px;
+    color:white;
+} 
+span{
+    font-size:20px;
+    font-weight: bold;
+} 
+/*input{
+    display:block;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: -1px -2px 3px rgba(0,0,0,0.2);
+    padding: 8px;
+    text-align: center;
+    color: rgba(101,100,90,1);
+}*/
+input:required{
+    background: url(../img/rehacer.PNG) no-repeat 96% center white;
+    outline: 2px solid transparent;
+    font-size:20px;
+    
+}
+input:valid{    
+    background: url(../img/checked.PNG) no-repeat 96% center white;
+    outline: 2px solid rgba(76, 168,76, .89);
+}
+input:focus{    
+    background: url(../img/wrong.PNG) no-repeat 96% center white;
+    outline: 5px solid rgba(76, 168,76, .89); 
+     
+} 
+input[type="submit"]:valid{ 
+    outline-color: transparent; 
+    box-shadow: 1px 2px 1px rgba(0,0,0,0.3);  
+    border-radius: 3px;
+    background-image:none;
+    padding-right: 8px;
+} 
+input[type="submit"]:valid:hover,
+input[type="submit"]:valid:focus{ 
+    cursor:pointer;
+    box-shadow: none;
+}    
+
+/* para resgistro */
+.for .boton1{
+    width: 30%;
+    background-color: lightblue;
+    color: white;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    float: left;
+    font-size:20px;
+}
+.for .boton2{
+    width: 30%;
+    color: white;
+    height: 30px;
+    border-radius: 20px;
+    border:none;
+    font-size:20px;
+    background-color: lightblue
+} 
+.back{
+    background-color: cornflowerblue;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 3px;
+    line-height: 25px;
+    margin-right:20px;
+}    
+h2{
+    font-size: 25px; 
+    color: white;  
+}
+.ob{
+    font-size:15px;
+    color:red;
+}
+
+.contraregistro{
+    width: 960px;
+    height: 800px;
+    box-sizing: border-box;
+    margin: 0 auto;;
+    background-color: cornflowerblue;
+    background-repeat: cover;
+}
+.contraregistro .ob{
+    color: red;
+    font-size: 12px;
+}
+.registros{
+    margin-left: 400px;
+}
+.nulo{
+    text-decoration: none;
+    background-color: grey;
+    border:none;
+}

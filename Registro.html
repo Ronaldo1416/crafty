@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafty</title>
+    <link rel="stylesheet" href="./css/master.css">
+</head>
+   <div class="container">
+    <header>
+           <div class="linea">
+                    <img class="logo" src="./img/logo.png" alt="Logo"> 
+                <ul class="nav1">
+                 <li><a href="./master.html">Smartphone</a></li>
+                 <li><a href="./master.html">Tablets</a></li>
+                 <li><a href="./master.html">Computadoras</a></li>
+                </ul>
+                <ul class="nav2">
+                     <li><a href="./Registro.html">Registro</a></li>  
+                     <li><a href="./firma.html">Login</a></li> 
+                </ul>
+            </div>    
+    </header> 
+    <body>
+        <section id="contfirma">
+                <form class="for">
+                     <h2 class="tit">REGISTRATE</h2>
+                    <label for="Text">Nombre</label><br>
+                    <input type="text" value="Nombre" required><br>
+                    <label class="ob" for="ob">*Obilgatorio.</label><br>
+                    <label for="EMAIL">Email</label><br>
+                    <input type="Email" value="Email" required><br>
+                    <label class="ob" for="ob">*Obilgatorio.</label><br>
+                    <label for="Password">Contraseña</label><br>
+                    <input type="password" value="Contraseña" required pattern="\S{8}"><br>
+                    <label class="ob" for="ob">*Obilgatorio.</label>
+                    <h2>Pais de Nacimiento</h2>
+                    <select name= "Pais de Nacimiento" id="">
+                    <option value ="Argentina" required >Argentina </option>
+                    <option value="Uruguay" required >Uruguay</option>
+                    <option value="Chile" required >Chile</option>
+                    <option value="Brail" required >Brasil</option>
+                    </select><br>
+                    <label class="ob" for="ob">*Obilgatorio.</label>
+                    <h2>Genero</h2>
+                    <input type="radio" name="genero" id=""value="H">Hombre 
+                    <input type="radio" name="genero" id=""value = "M">Mujer
+                    <input type="radio" name="genero" id=""value="Ni">
+                    Prefiero no decirlo            
+                    <h2>Hobbies</h2>
+                    <input type="checkbox" name="hobbie" id ="" value ="G">Guitarra
+                    <input type="checkbox" name="hobbie" id ="" value ="F">Fútbol
+                    <input type="checkbox" name="hobbie" id ="" value ="T">Tenis
+                    <input type="checkbox" name="hobbie"id=""value="P">Programación
+                    <h2>Dejanos tus comentarios</h2>
+                    <textarea name="Dejanos"id=""cols="30"rows="10"></textarea>
+                    <br>
+                    <input type="radio"name="Acepto"id=""value="TyC">Acepto terminos y con diciones
+                    <br>
+                    <input class="nulo" type="submit" value="Registrarme">
+                    <input class="nulo" type="reset" value="Cancelar">
+                    <br>
+                    <br>
+                    <input class="boton1" type="submit" value="Registrarme">
+                    <input class= "boton2" type="reset" value="Cancelar">
+                </form>
+            </section> 
+            <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>    
+        </body>
+     </div>        
+</html>
